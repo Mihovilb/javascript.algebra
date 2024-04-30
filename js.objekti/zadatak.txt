@@ -1,0 +1,8 @@
+Kreiraj objekt koji reprezentira neki specifični auto, sa bar 8 svojstava, od kojih su 3 funckije ( npr. ubrzaj, zakoci itd,), a jedna je također objekt.
+Probajte referencirati druge vrijednosti objekta u funkcijama.
+svaka funkcija mora primati argumente i vraćati neku vrijednost.
+
+2. Pozovite funkcije svog objekta sa argumentima i ispišite rezultat.
+2. Sa petljom pristupi svim brojivim svojstima tvog auto objekta i ispiši vrijednosti u konzoli.
+3. Ispiši u konzoli razumljivu rečenicu koja uključuje bar 2 svojstva tvog objekta.
+4. Pretvori svoj objekt u JSON string.

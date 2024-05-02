@@ -1,0 +1,12 @@
+U Ovoj vježbi koristit ćemo se lodash bibiliotekom. prvi korak je da instalirate lodash paket na lokalno računalo.
+
+Korisnik na našoj stranici kreira password. Želimo ga osigurati da:
+    1. Je svaki znak u passwordu različit od drugih /jedistven
+    2. su svi znakovi brojke
+    3. password nema više od 10 znakova
+
+
+    vaš je zadatak:
+        1. napisati funckiju koja provjerava da li su svi znakovi jedinstveni (naputak: pogledajte lodash metode nad nizovima)
+        2. napisati funkciju koja provjerava da li su svi znakovi brojke
+        3. napisati funckiju koja uzima password i skraćuje ju na 10 znakova, ako je broj znakova veći od 10

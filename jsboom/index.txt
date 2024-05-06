@@ -1,0 +1,4 @@
+početni template
+Uključite script.js u html dokument.
+html index.html-a treba promijeniti pomoću JS i HTML DOm APi-ja tako da:
+    - se na početak doda h1 element

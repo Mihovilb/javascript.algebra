@@ -11,4 +11,4 @@ divInfo.classList.add("info");
 //var h2 = document.createElement("h2");
 //h2.appendChild(document.createTextNode("Ovo je tekst unutar h2"));
 
-dDescr.parentNode.append(divInfo);
+dDescr.parentNode.insertBefore(divInfo,dDescr.nextSibling);

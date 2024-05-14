@@ -2,7 +2,7 @@
 function Osoba() {
     (this.ime = "Ana"),
     (this.godine = 25);
-};
+}
 
 var osoba1 = new Osoba();
 osoba1.brojCipela = 38;
@@ -19,7 +19,7 @@ Osoba.prototype.spol = "Žensko";
 
 console.log(
     "Osoba1 => ime:" +
-    osoba1.ime + "; ima godina: " + osoba1.godine + "; spol: " + osoba1.spol
+    osoba1.ime + "; ima godina: " + osoba1.godine + "; spol: " + osoba1.spol + "; pozdrav: " + osoba1.pozdrav()
 );
 
 var osoba2 = new Osoba();
@@ -32,5 +32,5 @@ osoba2.pozdrav = function(){
 }
 console.log(
     "Osoba2 => ime:" +
-    osoba2.ime + "; ima godina: " + osoba2.godine + "; spol: " + osoba2.spol + "; pozdravlja s: " + osoba2.pozdrav
+    osoba2.ime + "; ima godina: " + osoba2.godine + "; spol: " + osoba2.spol + "; pozdrav: " + osoba2.pozdrav()
 );
